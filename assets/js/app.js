@@ -30,10 +30,11 @@ function cardElement(item, options = {}) {
   const article = document.createElement("article");
   article.className = `card ${options.className || ""}`.trim();
   article.setAttribute("data-reveal", "");
+  const isServiceCard = article.classList.contains("service-card");
 
-  if (item.icon) article.append(iconElement(item.icon));
-  if (item.category) article.append(textElement("span", item.category, "card-tag"));
-  if (item.metric) article.append(textElement("span", item.metric, "card-metric"));
+  if (item.icon && !isServiceCard) article.append(iconElement(item.icon));
+  if (item.category && !isServiceCard) article.append(textElement("span", item.category, "card-tag"));
+  if (item.metric && !isServiceCard) article.append(textElement("span", item.metric, "card-metric"));
   article.append(textElement("h3", item.title));
   article.append(textElement("p", item.description));
 

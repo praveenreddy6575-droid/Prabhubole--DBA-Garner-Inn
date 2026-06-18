@@ -1523,6 +1523,9 @@ body.page-contact {
   box-shadow: var(--shadow-soft);
 }
 
+.service-card > .card-icon,
+.service-card > .card-tag,
+.service-card > .card-metric,
 .services-no-icons .card-icon {
   display: none;
 }

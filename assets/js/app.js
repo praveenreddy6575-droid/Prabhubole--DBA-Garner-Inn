@@ -90,20 +90,21 @@ function initGalleryCarousel() {
   if (!image || !caption || !previous || !next) return;
 
   const slides = [
-    ["./assets/media/images/gallery/666fc69d.avif", "Property gallery", "PRABHUBOLE property gallery image"],
-    ["./assets/media/images/gallery/1a22c97e.avif", "Guest accommodation", "PRABHUBOLE guest accommodation image"],
-    ["./assets/media/images/gallery/1f26ceb3.avif", "Guest facilities", "PRABHUBOLE guest facilities image"],
+    ["./assets/media/images/gallery/666fc69d.avif", "Property view", "PRABHUBOLE property gallery image"],
+    ["./assets/media/images/gallery/Office Space.jpg", "Office space", "PRABHUBOLE office space image"],
+    ["./assets/media/images/gallery/1a22c97e.avif", "Bathroom Amenities", "PRABHUBOLE guest accommodation image"],
+    ["./assets/media/images/gallery/1f26ceb3.avif", "Bathroom Amenities", "PRABHUBOLE guest facilities image"],
     ["./assets/media/images/gallery/24ac6ff2.avif", "Hospitality space", "PRABHUBOLE hospitality space image"],
-    ["./assets/media/images/gallery/415ef073.avif", "Property amenity", "PRABHUBOLE property amenity image"],
-    ["./assets/media/images/gallery/4c65c16d.avif", "Accommodation detail", "PRABHUBOLE accommodation detail image"],
-    ["./assets/media/images/gallery/056489be.avif", "Guest area", "PRABHUBOLE guest area image"],
-    ["./assets/media/images/gallery/6a63ac85.avif", "Facility view", "PRABHUBOLE facility view image"],
-    ["./assets/media/images/gallery/8fff84fe.avif", "Room feature", "PRABHUBOLE room feature image"],
-    ["./assets/media/images/gallery/94153c87.avif", "Property view", "PRABHUBOLE property view image"],
-    ["./assets/media/images/gallery/997724fd.avif", "Interior detail", "PRABHUBOLE interior detail image"],
-    ["./assets/media/images/gallery/d8964b8b.avif", "Guest service area", "PRABHUBOLE guest service area image"],
-    ["./assets/media/images/gallery/e4ba10dd.avif", "Hospitality detail", "PRABHUBOLE hospitality detail image"],
-    ["./assets/media/images/gallery/ef9dde5c.avif", "Property detail", "PRABHUBOLE property detail image"],
+    ["./assets/media/images/gallery/415ef073.avif", "In-Room Amenities", "PRABHUBOLE property amenity image"],
+    ["./assets/media/images/gallery/4c65c16d.avif", "In-Room Amenities", "PRABHUBOLE accommodation detail image"],
+    ["./assets/media/images/gallery/056489be.avif", "Bathroom Amenities", "PRABHUBOLE guest area image"],
+    ["./assets/media/images/gallery/6a63ac85.avif", "In-Room Amenities", "PRABHUBOLE facility view image"],
+    ["./assets/media/images/gallery/8fff84fe.avif", "Bathroom Amenities", "PRABHUBOLE room feature image"],
+    ["./assets/media/images/gallery/94153c87.avif", "Bathroom Amenities", "PRABHUBOLE property view image"],
+    ["./assets/media/images/gallery/997724fd.avif", "In-Room Amenities", "PRABHUBOLE interior detail image"],
+    ["./assets/media/images/gallery/d8964b8b.avif", "Bathroom Amenities", "PRABHUBOLE guest service area image"],
+    ["./assets/media/images/gallery/e4ba10dd.avif", "In-Room Amenities", "PRABHUBOLE hospitality detail image"],
+    ["./assets/media/images/gallery/ef9dde5c.avif", "Bathroom Amenities", "PRABHUBOLE property detail image"]
   ];
   let index = 0;
 
